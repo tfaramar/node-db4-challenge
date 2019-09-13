@@ -1,0 +1,25 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "'Node DB 4 Module'",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.4",
+    "knex-cleaner": "^1.3.0",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "git+https://github.com/tfaramar/node-db4-challenge.git",
+  "author": "'Tatiana Faramarzi'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfaramar/node-db4-challenge/issues"
+  },
+  "homepage": "https://github.com/tfaramar/node-db4-challenge#readme"
+}
